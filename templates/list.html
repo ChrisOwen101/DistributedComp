@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Distributed Communication API</title>
+  </head>
+  <body>
+    <h1>Distributed Communication API</h1>
+    <h2>Welcome {{ name }}</h2>
+    {% for item in users %}
+    <li><a href="{{ item.url }}">{{ item.username }}</a></li>
+    {% endfor %}
+  </body>
+</html>
